@@ -77,7 +77,7 @@ Add to `claude_desktop_config.json`:
 | false_alarms | Zones alerted when they shouldn't have been |
 | crew_ok | A crew was sent to every zone that needed one |
 
-Results: _TODO_
+**v0.1 (3 synthetic scenarios, Claude Sonnet 5.5):** 100% alert-level accuracy (21/21 zone decisions), 0 missed critical zones, crews dispatched correctly in 3/3. Synthetic scenarios mainly test that the agent follows the deterministic risk scores; historical fires with real evacuation outcomes are next.
 
 ## Roadmap
 - [ ] Historical fire scenarios with real outcomes

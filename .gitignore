@@ -5,3 +5,4 @@ __pycache__/
 data/actions_log.jsonl
 evals/results.json
 .pytest_cache/
+.DS_Store
