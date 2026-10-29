@@ -1,0 +1,18 @@
+{
+  "region": "East Bay Hills (Alameda & Contra Costa counties, CA)",
+  "zones": [
+    {"id": "OAK-HILLS", "name": "Oakland Hills", "lat": 37.830, "lon": -122.200, "population": 42000, "notes": "1991 Tunnel Fire area, narrow roads, high WUI exposure"},
+    {"id": "BERK-HILLS", "name": "Berkeley Hills", "lat": 37.880, "lon": -122.240, "population": 28000, "notes": "Dense housing on steep slopes, limited egress"},
+    {"id": "ORINDA", "name": "Orinda", "lat": 37.877, "lon": -122.180, "population": 19500, "notes": "Wooded residential, single highway corridor (SR-24)"},
+    {"id": "MORAGA", "name": "Moraga", "lat": 37.835, "lon": -122.130, "population": 16900, "notes": "Grassland interface, two main exit roads"},
+    {"id": "LAFAYETTE", "name": "Lafayette", "lat": 37.886, "lon": -122.118, "population": 25400, "notes": "Mixed oak woodland and suburban"},
+    {"id": "CASTRO-VLY", "name": "Castro Valley", "lat": 37.694, "lon": -122.086, "population": 66000, "notes": "Eastern ridges border open grassland"},
+    {"id": "DIABLO", "name": "Mount Diablo area", "lat": 37.882, "lon": -121.914, "population": 5000, "notes": "State park, recurring grass fires, sparse population"}
+  ],
+  "crews": [
+    {"id": "ENG-21", "type": "Type 3 engine", "base_zone": "OAK-HILLS"},
+    {"id": "ENG-07", "type": "Type 3 engine", "base_zone": "LAFAYETTE"},
+    {"id": "HC-2", "type": "Hand crew (20)", "base_zone": "CASTRO-VLY"},
+    {"id": "DOZ-1", "type": "Dozer", "base_zone": "DIABLO"}
+  ]
+}

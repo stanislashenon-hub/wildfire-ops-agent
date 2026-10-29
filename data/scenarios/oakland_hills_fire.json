@@ -1,0 +1,130 @@
+{
+  "name": "Night fire in the Oakland Hills, Diablo wind event",
+  "description": "Inspired by 1991 Tunnel Fire conditions (synthetic data).",
+  "zones": {
+    "OAK-HILLS": {
+      "weather": {
+        "alerts": [
+          "Red Flag Warning"
+        ],
+        "max_wind_mph": 35,
+        "min_rh_pct": 8
+      },
+      "fires": [
+        {
+          "distance_km": 3.0,
+          "frp_mw": 150,
+          "confidence": "h",
+          "detected": "replay"
+        }
+      ]
+    },
+    "BERK-HILLS": {
+      "weather": {
+        "alerts": [
+          "Red Flag Warning"
+        ],
+        "max_wind_mph": 35,
+        "min_rh_pct": 8
+      },
+      "fires": [
+        {
+          "distance_km": 6.0,
+          "frp_mw": 150,
+          "confidence": "h",
+          "detected": "replay"
+        }
+      ]
+    },
+    "ORINDA": {
+      "weather": {
+        "alerts": [
+          "Red Flag Warning"
+        ],
+        "max_wind_mph": 20,
+        "min_rh_pct": 10
+      },
+      "fires": [
+        {
+          "distance_km": 9.0,
+          "frp_mw": 150,
+          "confidence": "h",
+          "detected": "replay"
+        }
+      ]
+    },
+    "MORAGA": {
+      "weather": {
+        "alerts": [
+          "Red Flag Warning"
+        ],
+        "max_wind_mph": 20,
+        "min_rh_pct": 18
+      },
+      "fires": [
+        {
+          "distance_km": 12.0,
+          "frp_mw": 150,
+          "confidence": "h",
+          "detected": "replay"
+        }
+      ]
+    },
+    "LAFAYETTE": {
+      "weather": {
+        "alerts": [
+          "Red Flag Warning"
+        ],
+        "max_wind_mph": 20,
+        "min_rh_pct": 18
+      },
+      "fires": [
+        {
+          "distance_km": 16.0,
+          "frp_mw": 150,
+          "confidence": "h",
+          "detected": "replay"
+        }
+      ]
+    },
+    "CASTRO-VLY": {
+      "weather": {
+        "alerts": [
+          "Red Flag Warning"
+        ],
+        "max_wind_mph": 20,
+        "min_rh_pct": 18
+      },
+      "fires": [
+        {
+          "distance_km": 20.0,
+          "frp_mw": 150,
+          "confidence": "h",
+          "detected": "replay"
+        }
+      ]
+    },
+    "DIABLO": {
+      "weather": {
+        "alerts": [],
+        "max_wind_mph": 12,
+        "min_rh_pct": 30
+      },
+      "fires": []
+    }
+  },
+  "expected": {
+    "levels": {
+      "OAK-HILLS": "evacuation_order",
+      "BERK-HILLS": "evacuation_order",
+      "ORINDA": "evacuation_warning",
+      "MORAGA": "evacuation_warning",
+      "LAFAYETTE": "advisory",
+      "CASTRO-VLY": "advisory",
+      "DIABLO": "monitor"
+    },
+    "crew_to": [
+      "OAK-HILLS"
+    ]
+  }
+}

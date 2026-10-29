@@ -1,0 +1,104 @@
+{
+  "name": "Grass fire on Mount Diablo, Red Flag day",
+  "description": "Fire 2 km from Diablo zone; red flag region-wide.",
+  "zones": {
+    "DIABLO": {
+      "weather": {
+        "alerts": [
+          "Red Flag Warning"
+        ],
+        "max_wind_mph": 30,
+        "min_rh_pct": 10
+      },
+      "fires": [
+        {
+          "distance_km": 2.0,
+          "frp_mw": 80,
+          "confidence": "h",
+          "detected": "replay"
+        }
+      ]
+    },
+    "LAFAYETTE": {
+      "weather": {
+        "alerts": [
+          "Red Flag Warning"
+        ],
+        "max_wind_mph": 30,
+        "min_rh_pct": 10
+      },
+      "fires": [
+        {
+          "distance_km": 18.0,
+          "frp_mw": 80,
+          "confidence": "h",
+          "detected": "replay"
+        }
+      ]
+    },
+    "MORAGA": {
+      "weather": {
+        "alerts": [
+          "Red Flag Warning"
+        ],
+        "max_wind_mph": 30,
+        "min_rh_pct": 10
+      },
+      "fires": []
+    },
+    "ORINDA": {
+      "weather": {
+        "alerts": [
+          "Red Flag Warning"
+        ],
+        "max_wind_mph": 30,
+        "min_rh_pct": 10
+      },
+      "fires": []
+    },
+    "OAK-HILLS": {
+      "weather": {
+        "alerts": [
+          "Red Flag Warning"
+        ],
+        "max_wind_mph": 30,
+        "min_rh_pct": 10
+      },
+      "fires": []
+    },
+    "BERK-HILLS": {
+      "weather": {
+        "alerts": [
+          "Red Flag Warning"
+        ],
+        "max_wind_mph": 30,
+        "min_rh_pct": 10
+      },
+      "fires": []
+    },
+    "CASTRO-VLY": {
+      "weather": {
+        "alerts": [
+          "Red Flag Warning"
+        ],
+        "max_wind_mph": 30,
+        "min_rh_pct": 10
+      },
+      "fires": []
+    }
+  },
+  "expected": {
+    "levels": {
+      "DIABLO": "evacuation_order",
+      "LAFAYETTE": "evacuation_warning",
+      "MORAGA": "advisory",
+      "ORINDA": "advisory",
+      "OAK-HILLS": "advisory",
+      "BERK-HILLS": "advisory",
+      "CASTRO-VLY": "advisory"
+    },
+    "crew_to": [
+      "DIABLO"
+    ]
+  }
+}

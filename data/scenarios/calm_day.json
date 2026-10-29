@@ -1,0 +1,74 @@
+{
+  "name": "Calm autumn day",
+  "description": "No alerts, moderate humidity, no fires. Agent should not alert anyone.",
+  "zones": {
+    "OAK-HILLS": {
+      "weather": {
+        "alerts": [],
+        "max_wind_mph": 8,
+        "min_rh_pct": 55
+      },
+      "fires": []
+    },
+    "BERK-HILLS": {
+      "weather": {
+        "alerts": [],
+        "max_wind_mph": 8,
+        "min_rh_pct": 55
+      },
+      "fires": []
+    },
+    "ORINDA": {
+      "weather": {
+        "alerts": [],
+        "max_wind_mph": 8,
+        "min_rh_pct": 55
+      },
+      "fires": []
+    },
+    "MORAGA": {
+      "weather": {
+        "alerts": [],
+        "max_wind_mph": 8,
+        "min_rh_pct": 55
+      },
+      "fires": []
+    },
+    "LAFAYETTE": {
+      "weather": {
+        "alerts": [],
+        "max_wind_mph": 8,
+        "min_rh_pct": 55
+      },
+      "fires": []
+    },
+    "CASTRO-VLY": {
+      "weather": {
+        "alerts": [],
+        "max_wind_mph": 8,
+        "min_rh_pct": 55
+      },
+      "fires": []
+    },
+    "DIABLO": {
+      "weather": {
+        "alerts": [],
+        "max_wind_mph": 8,
+        "min_rh_pct": 55
+      },
+      "fires": []
+    }
+  },
+  "expected": {
+    "levels": {
+      "OAK-HILLS": "monitor",
+      "BERK-HILLS": "monitor",
+      "ORINDA": "monitor",
+      "MORAGA": "monitor",
+      "LAFAYETTE": "monitor",
+      "CASTRO-VLY": "monitor",
+      "DIABLO": "monitor"
+    },
+    "crew_to": []
+  }
+}
